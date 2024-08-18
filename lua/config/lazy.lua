@@ -15,6 +15,7 @@ vim.opt.rtp:prepend(lazypath)
 
 -- Set up Lazy
 require('lazy').setup({
+  'tpope/vim-fugitive', 
   'nvim-treesitter/nvim-treesitter',
   'nvim-telescope/telescope.nvim',
   'folke/tokyonight.nvim',
